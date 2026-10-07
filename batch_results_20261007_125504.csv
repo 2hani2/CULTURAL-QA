@@ -1,0 +1,40 @@
+question,answer,path,dataset,record_id_or_source,confidence,moe_rescore_used
+what is artifact #1 in DOSA,"DOSA artifact #1 (Andhra Pradesh, original set): ""Tirupati Balaji temple"" -- The most famous Vishnu temple
+this is the richest place of worship",exact_lookup,DOSA,1,1.0,
+what is artifact #100 in DOSA,"DOSA artifact #100 (Bihar, original set): ""jayaprakash narayan"" -- this person is a freedom fighter hailing from bihar
+this person formed a political party by the name of janata party",exact_lookup,DOSA,100,1.0,
+what is concept #1 in DIWALI,"DIWALI concept #1 (textiles, Andhra Pradesh): ""Pochampally Ikat"" -- Renowned for its intricate geometric patterns, Pochampally Ikat is a weaving technique where warp and weft threads are tie-dyed before weaving. This craft is predominantly practiced in Pochampally and surrounding villages.",exact_lookup,DIWALI,1,1.0,
+what is concept #500 in DIWALI,"DIWALI concept #500 (dance, Goa): ""Dasarawadan"" -- Folk performance depicting stories from Ramayana, involving music and dance.",exact_lookup,DIWALI,500,1.0,
+what is question #1 in DRISHTIKON,"DRISHTIKON question #1 (Uttarakhand, Cultural Common Sense, English): Which region of India is renowned for its numerous temples dedicated to various deities as shown in the image? [Options: Uttarakhand, Uttar Pradesh, West Bengal, Bihar] Answer: Uttarakhand",exact_lookup,DRISHTIKON,1,1.0,
+what is question #1000 in DRISHTIKON,"DRISHTIKON question #1000 (Telangana, Cuisine, English): In which Indian state are Hyderabadi delicacies like Haleem and Khubani ka Meetha iconic festival foods, as shown in the image? [Options: Madhya Pradesh, Telangana, Telangana, Uttarakhand] Answer: Telangana",exact_lookup,DRISHTIKON,1000,1.0,
+what is record #1 in Durga QA,"Durga QA record #1: ""Dewi apa Durga?"" -> Durga adalah dewi Hindu.",exact_lookup,Durga QA,1,1.0,
+what is item #1 in SCALE,"SCALE item #1 (Clothing And Accessories): ""tado tassang"" (translation: ताडो तसांग नेकलेस)",exact_lookup,SCALE,1,1.0,
+what is item #100 in SCALE,"SCALE item #100 (Cuisine): ""kolkata biryani"" (translation: कोलकाता बिरयानी)",exact_lookup,SCALE,100,1.0,
+what is record #1 in Indian Cultural Dataset,"Indian Cultural Dataset record #1 (mythology): Category: mythology
+Content: Radha Krishna - A Never Ending Love Tale
+“Sacche prem ki koi samapti tithi nahi hoti, sanyog aur viyog ye dono hi awastha me samaan rehta hai.""
+
+In other words, ""True love has no end date. Coincidence and disconnection remain the same in both.” Isn't it so romantic?
+
+Rad...",exact_lookup,Indian Cultural Dataset,1,1.0,
+how many artifacts does DOSA have,615,rag,DOSA,DOSA_EDA (1).pdf,0.5557471513748169,True
+how many countries does SCALE cover,29,rag,SCALE,scale (1).pdf,0.6875435709953308,True
+what languages does DRISHTIKON support,15,rag,DRISHTIKON,DHRISHTIKON_EDA-3 (2).pdf,0.609624445438385,True
+how many concepts are in DIWALI,No confident answer span found in retrieved context across any dataset.,rag,,,,True
+what states does DIWALI cover,Haryana,rag,DIWALI,,0.7605045437812805,True
+how many categories does the Indian Cultural Dataset have,17,rag,DIWALI,DIWALI_EDA (2).pdf,0.6879863142967224,True
+which DOSA artifacts are food or sweets,sweets are made of Sattu,rag,DOSA,,0.1397867202758789,True
+which DIWALI concepts relate to festivals,"- [DIWALI #2375] Concept: Diwali. Facet: festivals. State: Mizoram. Description: Hindu festival of lights observed with lamps, fireworks, and sweets by some communities.
+- [DIWALI #2607] Concept: Diwali. Facet: festivals. State: Dadra And Nagar Haveli And Dama. Description: Festival of lights celebrated with illumination and joy.
+- [DIWALI #2354] Concept: Diwali. Facet: festivals. State: Meghalaya. Description: Festival of lights celebrated by lighting diyas, bursting crackers, and sharing sweets.
+- [DIWALI #2611] Concept: Diwali. Facet: festivals. State: Delhi. Description: Festival of Lights; celebrates victory of light over darkness.
+- [DIWALI #2324] Concept: Diwali. Facet: festivals. State: Manipur. Description: Hindu festival of lights symbolizing triumph of light over darkness with lamps and fireworks.
+- [DIWALI #2057] Concept: Diwali. Facet: festivals. State: Bihar. Description: Also known as the Festival of Lights, Diwali is celebrated with great enthusiasm in Bihar. People illuminate their homes with oil lamps, b",filter_list,,,,True
+what mythology stories are in the Indian Cultural Dataset,Durga,rag,Durga QA,durga_EDA (1).pdf,0.48173660039901733,True
+tell me about wedding traditions in DOSA,West Bengal,rag,DRISHTIKON,,0.4555834233760834,True
+what clothing items are described in SCALE,traditional,rag,SCALE,scale (1).pdf,0.058995023369789124,True
+what is rangoli,Rangoli Making,rag,DIWALI,,0.3152765929698944,True
+which state is known for its silk sarees,Tamil Nadu,rag,DIWALI,,0.8772902488708496,True
+what is the significance of the lotus flower in Indian culture,enlightenment and purity,rag,DRISHTIKON,,0.4587678909301758,True
+tell me about ancient Indian epics,Ramayana,rag,Indian Cultural Dataset,,0.044824108481407166,True
+what ritual involves the bride's family teasing the groom's family,No confident answer span found in retrieved context across any dataset.,rag,,,,True

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# macOS
+.DS_Store
+
+# Generated vector store
+faiss_store/
+
+# Generated embedding cache
+image_embedding_cache/
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/
+!checkpoints/moe_fusion.pt
+
+# Jupyter
+.ipynb_checkpoints/
+data/

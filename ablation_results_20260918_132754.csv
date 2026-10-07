@@ -1,0 +1,27 @@
+question,baseline_answer,baseline_confidence,baseline_top_candidates,moe_answer,moe_confidence,moe_top_candidates,candidate_set_changed,answer_changed,note
+what is artifact #1 in DOSA,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is artifact #100 in DOSA,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is concept #1 in DIWALI,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is concept #500 in DIWALI,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is question #1 in DRISHTIKON,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is question #1000 in DRISHTIKON,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is record #1 in Durga QA,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is item #1 in SCALE,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is item #100 in SCALE,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+what is record #1 in Indian Cultural Dataset,,,,,,,,,"Path A (exact lookup) -- MoE was never in the loop, no ablation to compare"
+how many artifacts does DOSA have,615,0.631991446018219,DIWALI#None | DOSA#None | DOSA#None,615,0.5557471513748169,DOSA#None | DOSA#None | DOSA#None,True,False,
+how many countries does SCALE cover,29,0.8797475695610046,SCALE#None | SCALE#None | SCALE#None,29,0.6875435709953308,SCALE#None | SCALE#None | SCALE#None,False,False,
+what languages does DRISHTIKON support,15,0.7762205004692078,DRISHTIKON#None | DRISHTIKON#None | DRISHTIKON#None,15,0.7762205004692078,DRISHTIKON#None | DRISHTIKON#None | DRISHTIKON#None,False,False,
+how many concepts are in DIWALI,"∼8,800",0.7263087034225464,DIWALI#None | DIWALI#None | DIWALI#None,No confident answer span found in retrieved context across any dataset.,,DIWALI#2354 | DIWALI#None | DIWALI#2375,True,True,
+what states does DIWALI cover,36 Indian states and union territories,0.5105873346328735,DIWALI#None | DIWALI#None | DOSA#351,Uttar Pradesh,0.895561158657074,DIWALI#2444 | DIWALI#None | DOSA#351,True,True,
+how many categories does the Indian Cultural Dataset have,ten,0.6921638250350952,Indian Cultural Dataset#None | Indian Cultural Dataset#None | DIWALI#None,17,0.6879863142967224,Indian Cultural Dataset#None | DIWALI#None | DIWALI#None,True,True,
+which DOSA artifacts are food or sweets,No confident answer span found in retrieved context across any dataset.,,DOSA#None | DIWALI#4019 | DOSA#None,sweets are made of Sattu,0.1397867202758789,DIWALI#4019 | DIWALI#4056 | DOSA#250,True,True,
+which DIWALI concepts relate to festivals,,,,,,,,,"Path C (filter/list) -- MoE only reorders the list here, doesn't change which records are shown; ablation is most meaningful for Path B"
+what mythology stories are in the Indian Cultural Dataset,folk,0.357430100440979,Indian Cultural Dataset#None | Indian Cultural Dataset#None | Indian Cultural Dataset#None,Durga,0.48173660039901733,Indian Cultural Dataset#None | Durga QA#None | Indian Cultural Dataset#None,True,True,
+tell me about wedding traditions in DOSA,West Bengal,0.4555834233760834,DRISHTIKON#2223 | DRISHTIKON#421 | DRISHTIKON#3557,West Bengal,0.4555834233760834,DRISHTIKON#3398 | DRISHTIKON#1654 | DRISHTIKON#421,True,False,
+what clothing items are described in SCALE,No confident answer span found in retrieved context across any dataset.,,SCALE#None | SCALE#None | SCALE#None,No confident answer span found in retrieved context across any dataset.,,SCALE#None | SCALE#None | DIWALI#None,True,False,
+what is rangoli,A rangoli made with different colors that are organically sourced,0.3598742187023163,DIWALI#4944 | DOSA#379 | DOSA#529,A rangoli made with different colors that are organically sourced,0.3598742187023163,DOSA#379 | DRISHTIKON#153 | DIWALI#4944,True,False,
+which state is known for its silk sarees,Madhya Pradesh,0.3398950695991516,DIWALI#176 | DIWALI#176 | DRISHTIKON#1272,Tamil Nadu,0.8772902488708496,DRISHTIKON#117 | DIWALI#179 | DRISHTIKON#1272,True,True,
+what is the significance of the lotus flower in Indian culture,enlightenment and purity,0.4587678909301758,DRISHTIKON#4245 | Indian Cultural Dataset#61 | DRISHTIKON#3989,enlightenment and purity,0.4587678909301758,DRISHTIKON#3989 | DRISHTIKON#4245 | Indian Cultural Dataset#61,True,False,
+tell me about ancient Indian epics,Bihar,0.39359769225120544,DRISHTIKON#2482 | Indian Cultural Dataset#75 | Indian Cultural Dataset#28,Bihar,0.39359769225120544,Indian Cultural Dataset#28 | DRISHTIKON#2482 | Indian Cultural Dataset#92,True,False,
+what ritual involves the bride's family teasing the groom's family,bihari weddings,0.7743633389472961,DOSA#108 | DOSA#108 | DRISHTIKON#2224,bihari weddings,0.7743633389472961,DRISHTIKON#2224 | DRISHTIKON#2224 | DOSA#108,True,False,
